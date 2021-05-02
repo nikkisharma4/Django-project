@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: arial;
+	overflow-x: hidden;
+	/*color: white;*/
+}
+
+.navbar{
+background-color: black;	
+}
+ul{
+	margin-top: 20px;
+	margin-right: 35px;
+	display: flex;
+	justify-content: flex-end;		
+}
+ul li{
+	list-style-type: none;
+	padding: 15px 30px;
+}
+ul li a{
+	text-decoration: none;
+	color:white;
+	font-size: 18px;
+	transition: 0.2s;
+}
+li a:hover{
+	opacity:0.5;
+}
+
+.logo{
+		background-image: url("https://wallpaperaccess.com/full/435036.jpg");
+		width: 1370px;
+		height:900px;
+		background-size: cover;
+		background-repeat: no-repeat;
+}
+
+.para{
+	color: white;
+	margin-top: 30px;
+	padding: 25px;
+	width: 400px;
+	height: auto;
+	letter-spacing: 1px;
+	text-align: center;
+}
+h1{
+	margin-left:50px;
+	font-size: 25px;
+}
+
+.AdoptedDogs{
+	padding: 0 200px;
+	width:1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;	
+}
+.gif1{
+	background-image: url("https://i.pinimg.com/originals/f9/8f/c2/f98fc2fc9a9e290580817a3ab118f593.gif");
+	width:200px;
+	height: 200px;
+	background-size: cover;
+}
+.gif2{
+	background-image: url("https://www.animatedimages.org/data/media/202/animated-dog-image-0011.gif");
+	width:160px;
+	height: 200px;
+	background-size: cover;
+}
+.gif3{
+	background-image: url("https://thumbs.gfycat.com/ZealousDearestIbadanmalimbe-size_restricted.gif");
+	width:200px;
+	height: 200px;
+	background-size: cover;
+}
+.gif4{
+	background-image: url("https://i.pinimg.com/originals/e5/12/27/e51227f7b253ebe9cdd859045b957454.gif");
+	width:200px;
+	height: 200px;
+	background-size: cover;
+}
+.gif5{
+	background-image: url("https://i.pinimg.com/originals/c1/f6/de/c1f6de3d3da9a50e4aa7ef0ad5383a6d.gif");
+	width:200px;
+	height: 200px;
+	background-size: cover;
+}
+.gif6{
+	background-image: url("https://i.pinimg.com/originals/d5/0e/65/d50e65e83b9a3857503e5d69fb28b949.gif");
+	width:200px;
+	height: 200px;
+	background-size: cover;
+}
+.dog{
+	padding:15px;
+	margin: 15px;
+	color: white;
+	background-color: darkgray;
+	width: 250px;
+	height: auto;
+	text-align: justify;
+}
+h2{
+	text-align: center;
+	font-family: Monospace;
+	text-decoration: underline;
+	margin-bottom: 7px;
+}
+h3{
+	text-decoration: underline;
+	font-size: 40px;
+	font-style: italic;
+	text-align: center;
+	padding: 60px;
+	margin-top: 50px;
+}
+
+.training{
+text-align: center;
+}
+h4{
+	font-size: 40px;
+	text-align: center;
+	font-family: monospace;
+	padding: 50px;
+	margin-top: 60px
+}
+
+.parat{
+	padding:0px 320px;
+	text-align: center;
+	width: 700px;
+}
+.dogimg{
+	background-image: url("https://static.scientificamerican.com/blogs/cache/file/7A1AA7B6-1E54-4974-96488CF81302DC7C_source.jpg?w=590&h=800&B84E174E-0675-48A0-971D72A4376AC80F");
+	width:500px;
+	height: 500px;
+	background-size: cover;
+	margin: 50px 450px;
+}
+
+footer{
+	 background-color: black;
+	 color:white;
+
+}
+
+
+
+.footer{
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+
+}
+h5{
+	margin-bottom: 30px;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 3px;
+}
+.column1, .column3{
+	padding: 30px;
+	width: 400px;
+	
+}
+.column1{
+	margin-left: 100px;
+	text-align: center;
+}
+.column2{
+	width:300px;
+	padding: 30px;
+	text-align: center;
+}
+.column3{
+	text-align: center;
+}
+
+
+.quick a{
+	text-decoration: none;
+	color:white;
+	cursor: pointer;
+	overflow: hidden;
+}
+.quick a:hover{
+	opacity: 0.5;
+}
+.email{
+	cursor: pointer;
+	text-decoration: none;
+	color:gray;
+}
+.fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram{
+	color:white;
+	width: 20px;
+}	
+

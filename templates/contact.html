@@ -1,0 +1,20 @@
+{% extends 'base.html'%}
+{%block title%} Contact {%endblock title%}
+{% block body%}
+<div class="contactimg">
+<div class="contactpage">
+<form method="POST" action="/contact">
+    {% csrf_token %}
+    <div class=" box"><input type="text" name="name" placeholder="Full name" class="firstname"></div>
+    <div class="lastname box"><input type="text" name="phone" placeholder="Phone number" class="firstname"></div>
+    <div class="emailadd box"><input type="email" name="email" id="" placeholder="Email Adress" class="firstname"></div>
+    <div class="dogname box"><input type="text" name="dogname" placeholder="Your Dog name(optional)" class="firstname"></div>
+    <div class="textarea box"><textarea name="desc" id="" cols="30" rows="10" placeholder="Write Here" class="textme"></textarea></div>
+    <div>
+        <input type="button" value="Cancel" class="cancel">
+        <input type="submit" value="Submit" class="cancel">
+    </div>
+</form>
+</div>
+</div>
+{% endblock body%}

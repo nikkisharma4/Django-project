@@ -1,0 +1,27 @@
+.aboutimg{
+ background-image: url("https://image.freepik.com/free-photo/beautiful-terrier-dog-yellow-background_58409-12603.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.aboutpage{
+    width:700px;
+    margin: 100px 300px;
+    padding: 25px;
+    background-color: rgba(61, 56, 56, 0.7);
+    text-align: center;
+}
+.heaer{
+    color:white;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.aboutpara{
+    color:white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+

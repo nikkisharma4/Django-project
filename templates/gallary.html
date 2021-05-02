@@ -1,0 +1,20 @@
+{% extends 'base.html'%}
+{%block title%} Gallary {%endblock title%}
+{% block body%}
+ <div class="mygallary">
+<form class="gform" action="/gallary" method="POST">
+    {% csrf_token %}
+
+        {% for i in gall %}
+        <div class="mygcard">
+    
+            <div class="imageg" ><img src="{{i.image.url}}" alt="image" class="imgg"></div> 
+            <div class="paragalary"><p name='textarea'>{{i.textpara}}</p></div>
+            <div class="twobuttons">
+            <a href="/contact"><input type="button" value="Adopt me" class='btng'></a>
+            </div>
+    </div>
+    {% endfor %}
+</form>
+</div>
+{% endblock body%}

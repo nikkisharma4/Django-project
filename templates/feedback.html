@@ -1,0 +1,31 @@
+{% extends 'base.html'%}
+{%block title%} Feedback {%endblock title%}
+{% block body%}
+<div class="feedback">
+<form  method="POST" action="/feedback">
+    {% csrf_token %}
+<h5 class="feedheader">Give your feedback about our pethub</h5>
+<div class="feedname"><input type="text" name="text" id="" placeholder="Your name" class="feedn"></div>
+<div class="feedtext"><textarea name="textarea" id="" cols="30" rows="10" placeholder="write somthing here" class="feedt"></textarea></div>
+<div>
+    <input type="submit" value="Submit" name="submit" class="submitme">
+</div>
+</form>
+<div style="background-color: aqua; ">
+
+    <h5 style="text-decoration: underline;">See some reviews</h5>
+{% if feedb %}
+    {%for fe in feedb%}
+    <div style="margin: 50px;">
+        <h5 style="margin-bottom: 3px; text-align: left;">{{fe.text}}</h5>
+        <p style="text-align: left;">{{fe.textarea}}</p>
+        <div class="btnd">
+            <a href="/delete/{{fe.id}}"><input type="Submit" value="Delete" class="btn"></a>
+        </div>
+    </div>
+    {% endfor%}
+{% else %}
+<h6>Became a first reviwer</h6>
+{% endif %}
+</div>
+{% endblock body%}

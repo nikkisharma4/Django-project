@@ -1,0 +1,42 @@
+.feedback{
+    text-align: center;
+}
+.feedheader{
+    margin-top: 50px;
+    font-size: 25px;
+}
+.feedname{
+    margin-top:80px;
+    padding: 10px;
+}
+.feedtext{
+    padding:10px;
+}
+.feedn{
+    padding:10px 30px;
+}
+.feedt{
+    padding:5px;
+}
+
+.submitme{
+    padding: 7px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    background-color: rgb(91, 91, 219);
+    border-radius: 10px;
+}
+
+.feedpara{
+    text-align: center;
+    /* width:500px; */
+    margin: 40px;
+    /* border-bottom: 1px solid black; */ 
+}
+.btnd{
+    text-align: left;
+}
+.btn{
+    background-color: crimson;
+}
+

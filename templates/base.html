@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block title %} {% endblock title %}</title>
+	
+	<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'feedback.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'gallary.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'contact.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'about.css' %}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Navebar -->
+<nav>
+	<div class="navbar">
+		<ul>
+			<li class="Home"><a href="">Home</a></li>
+			<li class="About"><a href="/about">About</a></li>
+			<li class="Gallary"><a href="/gallary">Gallary</a></li>
+			<li class="Contact"><a href="/contact">Contact</a></li>
+			<li class="feedback"><a href="/feedback">Feedback</a></li>
+		</ul>
+	</div>
+</nav>
+{% block body%} {% endblock body %}
+<!-- footer -->
+<footer>
+	<div class="footer">
+		<div class="column1">
+			<h5>ADOPT A DOG</h5>
+			<p style="font-size: 15px;">We wanted to share this journey to demonstrate the lengths we go through to ensure that our most vulnerable rescues find a safe and happy home. Over a dozen people helped Oreo make it safely to her Forever Home.</p>
+		</div>
+		<div class="column2">
+			<h5>QUICK LINKS</h5>
+			<div>
+			<div class="quick"><a href=""> Home</a></div>
+			<div class="quick"><a href="/about"> About</a></div>
+			<div class="quick"><a href="/contact">Contact</a></div>
+			<div class="quick"><a href="/gallary">Gallary</a></div>
+			</div>
+		</div>
+		<div class="column3">
+			<h5>CONTACT US</h5>
+			<div class="email"><a href=""></a>adoptadog@gmail.com</div><br>
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-youtube"></a>
+			<a href="#" class="fa fa-instagram"></a>
+		</div>
+	</div>
+</footer>
+
+
+</body>
+</html>

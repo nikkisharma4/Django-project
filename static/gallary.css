@@ -1,0 +1,57 @@
+.mygallary{
+    width:800px;
+    margin:100px 230px; 
+}
+.gform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mygcard{
+    width: 200px;
+    /* border:1px solid gray; */
+    box-shadow: 2px 3px 3px 4px rgb(110, 105, 105);
+    border-top-right-radius: 10%;
+    margin:20px;
+    transition: 0.5s ease-in-out;
+
+}
+.mygcard:hover{
+    padding: 10px;
+    opacity:0.8 ;
+}
+.twobuttons{
+    text-align: center;
+
+}
+
+.btng{  
+    color:white;
+    background-image: linear-gradient(rgb(161, 161, 216), rgb(96, 96, 184));
+    padding: 6px;
+    border-radius: 10%;
+    margin:10px 10px;
+    box-shadow: 1px 2px 3px  rgb(61, 54, 54);  
+    transition: 0.2s ease;  
+}
+
+.btng:hover{
+    opacity: 0.7;
+}
+
+.imageg{
+    /* width:200px; */
+    /* height:150px; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    overflow: hidden;
+}
+.imgg{
+    width:200px;
+    height:150px;
+    border-top-right-radius:10% ;
+    background-size: cover;
+    background-position:center;
+}
